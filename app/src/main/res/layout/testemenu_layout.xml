@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".teste"
+    android:onClick="voltar">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="500dp"
+        android:layout_height="139dp"
+        android:src="@drawable/head_app" />
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/microondas" />
+
+    <ImageButton
+        android:id="@+id/overflowbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#00000000"
+        android:src="@drawable/menuicon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuitens"
+        android:layout_gravity="end"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="145dp"
+        android:src="@drawable/microondastitle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/botaomedir" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="170dp"
+        android:src="@drawable/medicao" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/selectshadow" />
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@drawable/barrabottom" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:background="#00000000"
+        android:src="@drawable/energicon" />
+
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/configicon"
+        android:background="#00000000"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:src="@drawable/histicon"
+        android:background="#00000000"
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"/>
+
+</FrameLayout>
